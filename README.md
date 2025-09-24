@@ -4,3 +4,14 @@ Generative AI projects added here.
 Search Engine LLM: Langchain - Chat with Search Engine Gen AI app! Used tools and agents with groq model
 
 Text summarization- LangChain -Summarize Text From YouTube or Website
+title: Text Summarization Llm
+emoji: 🚀
+colorFrom: red
+colorTo: red
+sdk: docker
+app_port: 8501
+tags:
+- streamlit
+pinned: false
+short_description: Using LangChain we Summarize Text From YouTube or Website
+license: apache-2.0
