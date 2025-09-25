@@ -13,9 +13,12 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Set environment variables for LangSmith tracking and LangChain project
-st.secrets["LANGCHAIN_API_KEY"]
-st.secrets["LANGCHAIN_PROJECT"]
-st.secrets["LANGCHAIN_TRACING_V2"]
+#st.secrets["LANGCHAIN_API_KEY"]
+#st.secrets["LANGCHAIN_PROJECT"]
+#st.secrets["LANGCHAIN_TRACING_V2"]
+LANGCHAIN_API_KEY = os.getenv("LANGCHAIN_API_KEY")
+LANGCHAIN_PROJECT = os.getenv("SIMPLE_LANGCHAIN_PROJECT")
+LANGCHAIN_TRACING_V2 = os.getenv("LANGCHAIN_TRACING_V2")
 
 # using inbuilt tool of wikipedia
 api_wrapper_wiki = WikipediaAPIWrapper(top_k_results = 2, doc_content_chars_max=500) 
@@ -99,6 +102,7 @@ if api_key:
             response = search_agent.run(st.session_state.messages, callbacks= [st_cb])
             st.session_state.messages.append({'role':'assistant','content':response})
             st.write(response)
+
 
 
 
