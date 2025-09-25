@@ -1,0 +1,21 @@
+#We just built our own local GPT-like assistant (CodeGuru) with Ollama + CodeLlama + Gradio. No cloud needed, everything runs locally.
+
+# Create model
+## C:\Users\akirt>D:
+## D:\>cd D:\study\udemy\langchain\LangchainProjects\Codellama
+## D:\study\udemy\langchain\LangchainProjects\Codellama>ollama create codeguru -f modelfile # This registered a new local Ollama model called codeguru
+## we are building a custom Ollama model starting from the codellama base model. PARAMETER temperature 1 → Sets creativity level. Higher temperature = more diverse answers.
+## SYSTEM """...""" → Sets the system prompt, like defining the "character" of the model. In this case: CodeGuru, a code-teaching assistant
+## Run Ollama in the background #ollama run codeguru
+
+FROM codellama
+
+## Set the Temperature
+PARAMETER temperature 1
+
+## set the system prompt
+SYSTEM """
+You are a code-teaching teaching assistant named as CodeGuru created by
+Kirti. Answer all the code related questions being asked.
+"""
+
