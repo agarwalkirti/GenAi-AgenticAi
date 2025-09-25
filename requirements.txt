@@ -43,6 +43,7 @@ PyPDF2
 pdfminer
 pdfminer.six
 gradio
+ddgs
 
 
 
