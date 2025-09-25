@@ -45,4 +45,4 @@ pdfminer.six
 gradio
 altair
 pandas
-
+ddgs
