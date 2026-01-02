@@ -46,3 +46,5 @@ gradio
 altair
 pandas
 ddgs
+trl
+peft
