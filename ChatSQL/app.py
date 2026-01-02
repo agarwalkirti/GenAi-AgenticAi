@@ -38,7 +38,7 @@ os.environ["HUGGING_FACE_API_KEY"] = os.getenv("HUGGING_FACE_API_KEY")
 # Set page configuration
 st.set_page_config(page_title="Langchain: Chat with SQL DB",page_icon="🤖")
 # title of the app
-st.title("🤖 Langchain - Chat with Search Engine Gen AI app! Used SQL DB,In-built, custom tools & agents with groq model")
+st.title("Langchain - Chat with Search Engine Gen AI app! Used SQL DB,In-built, custom tools & agents with groq model")
 
 LOCALDB = "USE_LOCALDB"
 MYSQL="USE_MYSQL"
