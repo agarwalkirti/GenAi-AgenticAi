@@ -2,11 +2,9 @@
 #!pip install -q -U keras>=3
 #!pip install -q keras-nlp
 
-import keras_nlp
-print(keras_nlp.__version__)
-
 #downloading dataset
 #!wget -O databricks-dolly-15k.jsonl https://huggingface.co/datasets/databricks/databricks-dolly-15k/resolve/main/databricks-dolly-15k.jsonl # Changed URL to download raw file
+#google colab file to .py file
 
 import os
 from google.colab import userdata
