@@ -27,9 +27,21 @@ ChatSQL:Chat with Search Engine Gen AI app! Used SQL DB,In-built, custom tools &
 
 AWS Bedrock:Introduction to AWS Bedrock, Document Q&A with langchain and bedrock, End to end Blog Generation using AWS lambda and bedrock, deploymemnt of hugging face opensource llm models in aws sagemakers with endpoints
 
-MathsGpt:Text To MAth Problem Solver And Data Serach Assistant
+MathsGpt:Text To Math Problem Solver And Data Search Assistant
 
 Q&A chatbot: chatbot using langchain,groq/ollama LLM,streamlit
+
+LangGraph:
+Building chatbot with multiple tools- arxiv,wikipedia search,tavily search and custom functions like add,multiply using Langgraph
+Data class state schema and errors explained
+Multi AI agents with Astra DB
+Chatbot with wiki and arxiv tools
+a simple workflow or graph using langgraph
+chat bot with full conversation is updated and displayed with each response
+various versions of chatbot using langgraph - ChainsLanggraph.ipynb, chatbot.ipynb, chatbot.py
+Workflows explained- prompt chaining,parallelization workflow,routing workflow,orchestrator workflow,evaluator optimizer
+debugging langgraph application with langsmith
+
 
 
 
