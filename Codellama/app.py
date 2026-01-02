@@ -1,5 +1,5 @@
 #### creating our custom gpt like application on codellama (Multilanguage code assistant-codeguru)
-#codeguru and ollama are running in backend, Now we will craete our API
+#codeguru and ollama are running in backend, Now we will create our API
 import requests
 import json
 import gradio as gr
