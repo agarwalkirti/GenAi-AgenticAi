@@ -5,3 +5,13 @@ __pycache__/
 logs/
 *.json/
 Langgraph/*token*.json/
+*.pdf
+*.zip
+*.tar.gz
+*.pt
+*.ckpt
+*.bin
+*.onnx
+__pycache__/
+.venv/
+*token*.json
